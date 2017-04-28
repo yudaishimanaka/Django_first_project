@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'blog',
     'markdown_deux',
     'markdownx',
+    'accounts'
 ]
 
 MIDDLEWARE = [

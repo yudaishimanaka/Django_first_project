@@ -1,0 +1,16 @@
+{% load staticfiles %}
+{% load markdown_deux_tags %}
+<html>
+    <head>
+        <title>Document</title>
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+            {% block content %}
+            {% endblock %}
+        </center>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    </body>
+</html>
